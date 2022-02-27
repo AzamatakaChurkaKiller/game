@@ -1,0 +1,36 @@
+.hideBlock {
+    display: none;
+}
+body{
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 20%;
+}
+button{
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    border-color: blueviolet;
+    margin: 10px 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    color: blueviolet;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 8px 15px rgba(225, 0, 255, 0.308);
+}
+button:hover{
+    background: #ffffff;
+    box-shadow: 0 15px 20px rgba(255, 255, 255, 0.4);
+    color: blueviolet;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(225, 0, 255, 0.308);
+}
+p{
+    text-decoration: none;
+    color: blueviolet;
+}
